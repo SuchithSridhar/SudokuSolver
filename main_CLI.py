@@ -5,9 +5,9 @@ note: A gui version available, run main.py
 choose puzzle in puzzlechoice.py
 '''
 
-from sudokuBoard import Board
-from sudokuSolver import Solver
-from puzzleChoice import choose
+from src.sudokuBoard import Board
+from src.sudokuSolver import Solver
+from src.puzzleChoice import choose
 from tests import speedtest
 import time
 import sys
@@ -20,7 +20,7 @@ def solve(puzzle, blank="."):
 
 
 if __name__ == "__main__":
-    if sys.argv[1] == "test":
+    if len(sys.argv) == 2 and sys.argv[1] == "test":
         speedtest.main()
     else:
         puzzle, blank = choose()

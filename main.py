@@ -5,5 +5,5 @@ note: A CLI version available, run main_CLI.py
 choose puzzle in puzzlechoice.py
 '''
 
-import SudokuSolverGUI
+from src import SudokuSolverGUI
 SudokuSolverGUI.main()

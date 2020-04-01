@@ -1,6 +1,6 @@
-from sudokuBoard import Board
-from sudokuSolver import Solver
-from puzzleChoice import choose
+from .sudokuBoard import Board
+from .sudokuSolver import Solver
+from .puzzleChoice import choose
 import tkinter as tk
 from time import sleep, time
 
