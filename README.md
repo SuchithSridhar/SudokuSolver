@@ -1,4 +1,4 @@
-Sudoku Solver
+# Sudoku Solver
 
 Based on Back Tracking
 
@@ -10,8 +10,6 @@ lower sleep, faster solver
 
 choose puzzle in puzzleChoose.py
 
-
-run 'Solver-CLI.py' for CLI version of
-sovler
+run 'Solver-CLI.py' for CLI version of sovler
 
 Based on tkiner
