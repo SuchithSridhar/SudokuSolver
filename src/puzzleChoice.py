@@ -1,5 +1,5 @@
 def choose():
-    with open("easy50.txt") as f:
+    with open("puzzles/easy50.txt") as f:
         # Change the file up here to "hardest.txt" to try harder puzzles
         lines = f.readlines()
 
